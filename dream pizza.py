@@ -18,7 +18,7 @@ customer_order = []
 customer_price = []
 
 def ordering():
- user_input = ("""What would you like to order?
+ user_input = input("""What would you like to order?
  Regular Pizzas
  1) Ham & Cheese - $8.50
  2) Hawaiian - $8.50
