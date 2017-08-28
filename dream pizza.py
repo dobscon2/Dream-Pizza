@@ -77,8 +77,8 @@ if user_input == "12":
 else:
   print("Please choose one of the available pizzas")
 if user_input == "end":
-break
-return
+   break
+  return
 
 def displaying():
   if user_delivery == "yes":
