@@ -70,9 +70,8 @@ if user_input == "11":
 if user_input == "12":
   customer_order.append(pizza_menu_gourmet[5])
   customer_price.append(gourmet_pizza)
-elif:
+else:
   print("Please choose one of the available pizzas")
-
 else: break
 
 def displaying()
