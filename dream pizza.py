@@ -2,12 +2,14 @@ def details():
   user_name = input("What's your name?")
   user_delivery = input("Would you like it delivered?")
   delivery_charge = 3
+  return
 
 def delivery():
   if user_delivery == "yes":
     user_address = input("What is your address?")
     user_number = input("What is your phone number?")
     customer_price.append(delivery_charge)
+    return
 
 pizza_menu_regular = ["Ham & Cheese", "Hawaiian", "Meatlovers", "Pepperoni", "Vegetarian", "Cheesy"]
 pizza_menu_gourmet = ["Chicken & Cranberry", "BBQ Chicken & Bacon", "Butter Chicken Pizza", "Seafood Deluxe", "Chicken Satay Pizza", "Smoked Salmon Pizza"]
@@ -76,6 +78,7 @@ else:
   print("Please choose one of the available pizzas")
 if user_input == "end":
 break
+return
 
 def displaying():
   if user_delivery == "yes":
@@ -84,8 +87,10 @@ def displaying():
     print(user_address)
     print(user_address)
     print(customer_order)
+    return
  
 if user_delivery == "no":
   print(user_name)
   print("Pick Up")
   print(customer_order)
+  return
