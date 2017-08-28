@@ -18,7 +18,8 @@ customer_order = []
 customer_price = []
 
 def ordering():
-  user_input = input("""What would you like to order?
+  while True:
+    user_input = input("""What would you like to order?
  Regular Pizzas
  1) Ham & Cheese - $8.50
  2) Hawaiian - $8.50
@@ -32,7 +33,8 @@ def ordering():
  9) Butter Chicken Pizza - $13.50
  10) Seafood Delux - $13.50
  11) Chicken Satay Pizza - $13.50
- 12) Smoked Salmon Pizza - $13.50""")
+ 12) Smoked Salmon Pizza - $13.50
+ type 'end' when finished""")
 
 if user_input == "1":
   customer_order.append(pizza_menu_regular[0])
@@ -72,6 +74,8 @@ if user_input == "12":
   customer_price.append(gourmet_pizza)
 else:
   print("Please choose one of the available pizzas")
+if user_input == "end":
+break
 
 def displaying():
   if user_delivery == "yes":
