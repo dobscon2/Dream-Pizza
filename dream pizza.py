@@ -7,7 +7,6 @@ def delivery():
     user_address = input("What is your address?")
     user_number = input("What is your phone number?")
     customer_price.append(delivery_charge)
-  else: break
 
 pizza_menu_regular = ["Ham & Cheese", "Hawaiian", "Meatlovers", "Pepperoni", "Vegetarian", "Cheesy"]
 pizza_menu_gourmet = ["Chicken & Cranberry", "BBQ Chicken & Bacon", "Butter Chicken Pizza", "Seafood Deluxe", "Chicken Satay Pizza", "Smoked Salmon Pizza"]
@@ -18,7 +17,7 @@ customer_order = []
 customer_price = []
 
 def ordering():
- user_input = input("""What would you like to order?
+  user_input = input("""What would you like to order?
  Regular Pizzas
  1) Ham & Cheese - $8.50
  2) Hawaiian - $8.50
@@ -72,17 +71,16 @@ if user_input == "12":
   customer_price.append(gourmet_pizza)
 else:
   print("Please choose one of the available pizzas")
-else: break
 
-def displaying()
- if user_delivery == "yes":
- print(user_name)
- print("Delivery")
- print(user_address)
- print(user_address)
- print(customer_order)
+def displaying():
+  if user_delivery == "yes":
+    print(user_name)
+    print("Delivery")
+    print(user_address)
+    print(user_address)
+    print(customer_order)
  
 if user_delivery == "no":
- print(user_name)
- print("Pick Up")
- print(customer_order)
+  print(user_name)
+  print("Pick Up")
+  print(customer_order)
