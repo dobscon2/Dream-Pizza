@@ -1,6 +1,7 @@
-user_name = input("What's your name?")
-user_delivery = input("Would you like it delivered?")
-delivery_charge = 3
+def details():
+  user_name = input("What's your name?")
+  user_delivery = input("Would you like it delivered?")
+  delivery_charge = 3
 
 def delivery():
   if user_delivery == "yes":
