@@ -3,7 +3,7 @@ user_delivery = input("Would you like it delivered?")
 delivery_charge = 3
 
 def delivery():
-  if user_delivery = "yes":
+  if user_delivery == "yes":
     user_address = input("What is your address?")
     user_number = input("What is your phone number?")
     customer_price.append(delivery_charge)
