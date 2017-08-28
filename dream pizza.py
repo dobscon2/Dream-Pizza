@@ -34,43 +34,43 @@ def ordering():
  11) Chicken Satay Pizza - $13.50
  12) Smoked Salmon Pizza - $13.50""")
 
-  if user_input == "1":
-    customer_order.append(pizza_menu_regular[0])
-    customer_price.append(regular_pizza)
-  if user_input == "2":
-    customer_order.append(pizza_menu_regular[1])
-    customer_price.append(regular_pizza)
-  if user_input == "3":
-    customer_order.append(pizza_menu_regular[2])
-    customer_price.append(regular_pizza)
-  if user_input == "4":
-    customer_order.append(pizza_menu_regular[3])
-    customer_price.append(regular_pizza)
-  if user_input == "5":
-    customer_order.append(pizza_menu_regular[4])
-    customer_price.append(regular_pizza)
-  if user_input == "6":
-    customer_order.append(pizza_menu_regular[5])
-    customer_price.append(regular_pizza)
-  if user_input == "7":
-    customer_order.append(pizza_menu_gourmet[0])
-    customer_price.append(gourmet_pizza)
-  if user_input == "8":
-    customer_order.append(pizza_menu_gourmet[1])
-    customer_price.append(gourmet_pizza)
-  if user_input == "9":
-    customer_order.append(pizza_menu_gourmet[2])
-    customer_price.append(gourmet_pizza)
-  if user_input == "10":
-    customer_order.append(pizza_menu_gourmet[3])
-    customer_price.append(gourmet_pizza)
-  if user_input == "11":
-    customer_order.append(pizza_menu_gourmet[4])
-    customer_price.append(gourmet_pizza)
-  if user_input == "12":
-    customer_order.append(pizza_menu_gourmet[5])
-    customer_price.append(gourmet_pizza)
-  else:
+if user_input == "1":
+  customer_order.append(pizza_menu_regular[0])
+  customer_price.append(regular_pizza)
+if user_input == "2":
+  customer_order.append(pizza_menu_regular[1])
+  customer_price.append(regular_pizza)
+if user_input == "3":
+  customer_order.append(pizza_menu_regular[2])
+  customer_price.append(regular_pizza)
+if user_input == "4":
+  customer_order.append(pizza_menu_regular[3])
+  customer_price.append(regular_pizza)
+if user_input == "5":
+  customer_order.append(pizza_menu_regular[4])
+  customer_price.append(regular_pizza)
+if user_input == "6":
+  customer_order.append(pizza_menu_regular[5])
+  customer_price.append(regular_pizza)
+if user_input == "7":
+  customer_order.append(pizza_menu_gourmet[0])
+  customer_price.append(gourmet_pizza)
+if user_input == "8":
+  customer_order.append(pizza_menu_gourmet[1])
+  customer_price.append(gourmet_pizza)
+if user_input == "9":
+  customer_order.append(pizza_menu_gourmet[2])
+  customer_price.append(gourmet_pizza)
+if user_input == "10":
+  customer_order.append(pizza_menu_gourmet[3])
+  customer_price.append(gourmet_pizza)
+if user_input == "11":
+  customer_order.append(pizza_menu_gourmet[4])
+  customer_price.append(gourmet_pizza)
+if user_input == "12":
+  customer_order.append(pizza_menu_gourmet[5])
+  customer_price.append(gourmet_pizza)
+elif:
   print("Please choose one of the available pizzas")
 
 else: break
