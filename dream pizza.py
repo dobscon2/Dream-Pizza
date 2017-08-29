@@ -72,8 +72,6 @@ Regular Pizzas
     customer_price.append(gourmet_pizza)
   if user_input.lower() == "end":
     break
-  else:
-    print("Please choose one of the available pizzas")
 
 if user_delivery.lower() == "yes":
   print("Your order has been placed")
