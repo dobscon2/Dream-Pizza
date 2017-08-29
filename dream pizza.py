@@ -1,5 +1,6 @@
+print("Welcome to Dream Pizza")
 user_name = input("What's your name?")
-user_delivery = input("Would you like it delivered?")
+user_delivery = input("Would you like your pizza delivered?")
 delivery_charge = 3
 customer_order = []
 customer_price = []
@@ -17,6 +18,7 @@ while True:
   regular_pizza = 8.50
   gourmet_pizza = 13.50
   user_input = input("""What would you like to order?
+Pleae type the number which that pizza represents
 Regular Pizzas
  1) Ham & Cheese - $8.50
  2) Hawaiian - $8.50
@@ -31,7 +33,7 @@ Regular Pizzas
  10) Seafood Delux - $13.50
  11) Chicken Satay Pizza - $13.50
  12) Smoked Salmon Pizza - $13.50
- type 'end' when finished""")
+ When finished type 'end' to complete order""")
   if user_input == "1":
     customer_order.append(pizza_menu_regular[0])
     customer_price.append(regular_pizza)
@@ -74,15 +76,17 @@ Regular Pizzas
     print("Please choose one of the available pizzas")
 
 if user_delivery.lower() == "yes":
-  print(user_name)
-  print("Delivery")
-  print(user_address)
-  print(user_number)
-  print(customer_order)
+  print("Your order has been placed")
+  print("Name: {}".format(user_name))
+  print("Method: Delivery")
+  print("Address: {}".format(user_address))
+  print("Phone Number: {}".format(user_number))
+  print("Customer's order: {}".format(customer_order))
   print("Total Price: ${:.2f}".format(sum(customer_price)))
  
 if user_delivery.lower() == "no":
-  print(user_name)
-  print("Pick Up")
-  print(customer_order)
+  print("Your order has been placed")
+  print("Name: {}".format(user_name))
+  print("Method: Pick Up")
+  print("Customer's order: {}".format(customer_order))
   print("Total Price: ${:.2f}".format(sum(customer_price)))
