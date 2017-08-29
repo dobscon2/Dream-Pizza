@@ -30,7 +30,7 @@ Regular Pizzas
  7) Chicken & Cranberry - $13.50
  8) BBQ Chicken & Bacon - $13.50
  9) Butter Chicken Pizza - $13.50
- 10) Seafood Delux - $13.50
+ 10) Seafood Deluxe - $13.50
  11) Chicken Satay Pizza - $13.50
  12) Smoked Salmon Pizza - $13.50
  When finished type 'end' to complete order""")
